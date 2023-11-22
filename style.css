@@ -1,0 +1,286 @@
+header{
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+background-image: url(Images/portada.png);
+
+}
+
+
+
+h1{
+font-weight: 700;
+background-color: black;
+color: white;
+font-size: 120%;
+border-radius: 5px;
+padding: 10px 25px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-right: 20px;
+}
+
+
+
+   
+
+
+.logo{
+width: 200px;
+height: 200px;
+
+
+}
+
+.e{
+   display: flex;
+}
+
+
+
+
+*{
+   box-sizing: border-box;
+}
+
+
+
+
+
+nav{
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+   justify-content: center;
+}
+
+
+.b{
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+   justify-content:left;
+
+}
+
+nav a{
+   font-size: 130%;
+   color: #fff;
+   padding: 1% 2%;
+   text-decoration: none;
+}
+
+
+nav a:hover{
+
+   background-color: rgb(170, 9, 9)
+
+}
+
+
+nav b{
+
+   font-size: 130%;
+   color: #fff;
+   padding: 1% 2%;
+   text-decoration: none;
+
+}
+
+
+.c{
+
+   font-size: 130%;
+   color: #fff;
+   padding: 1% 2%;
+   text-decoration: none;
+   justify-content: left;
+
+}
+
+
+.videos{
+
+   display: flex;
+   justify-content: space-between;
+   margin: 1%;
+   
+}
+
+
+
+
+.flex-contenedor{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+aside{
+   flex: 30px;
+   background-color: beige;
+   padding: 3%;
+}
+
+
+
+/*diseño responsivo*/
+@media screen and (max-width:400px){
+   nav, .flex-contenedor{
+       flex-direction: column;
+       align-items: center;
+   }
+}
+
+
+
+
+.Lokii{
+    margin: auto;
+}
+
+img{
+
+width: 100%;
+
+}
+
+body{
+
+    margin: 20px;
+    padding: 20px 50px;
+    background-color: rgb(201, 41, 41);
+}
+
+h2{
+
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-color: black;
+border: 30px solid black;
+
+
+}
+ 
+
+ 
+ .banner{
+
+    max-width: 100%;
+    max-height: 10%;
+
+ }
+ .imagen3{
+
+    width: 50%;
+ }
+
+ 
+
+ .mb-3{
+
+   width: 50%;
+ }
+
+ .btn {
+
+   background-color: black;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: black;
+}
+p{
+
+   color: white;
+}
+
+.card{
+
+border-radius: 0px;
+border-color:  rgb(170, 9, 9);
+
+
+}
+
+footer{
+
+display: flex;
+justify-content: space-between;
+   background-color: black;
+   align-items: center;
+
+}
+
+p{
+
+text-align: right;
+padding: 30px;
+}
